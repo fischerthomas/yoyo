@@ -56,7 +56,7 @@ if (
 	strstr($_SERVER['HTTP_USER_AGENT'],'palm')
 )
 {
-	header('Location: http://thomasfischer.me/lab/yoyo/dispatch/mobile');
+	header('Location: http://thomasfischer.me/lab/yoyo/src/mobile');
 }
 
 
@@ -69,7 +69,7 @@ elseif(strstr($_SERVER['HTTP_USER_AGENT'],'MSIE 6')
 
 )
 {
-	header('Location: http://thomasfischer.me/lab/yoyo/dispatch/oldBrowser');
+	header('Location: http://thomasfischer.me/lab/yoyo/src/oldBrowser');
 }
 
 
@@ -80,13 +80,13 @@ elseif(strstr($_SERVER['HTTP_USER_AGENT'],'MSIE 10')
 
 )
 {
-	header('Location:http://thomasfischer.me/lab/yoyo/dispatch/newBrowser');
+	header('Location:http://thomasfischer.me/lab/yoyo/src/');
 }
 
 
 //  FFX Opera
 else{
-	 header("Location:http://thomasfischer.me/lab/yoyo/dispatch/newBrowser");
+	 header("Location:http://thomasfischer.me/lab/yoyo/src/");
 }
 
 ?>
