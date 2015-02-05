@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+  
+<html>
+    <head>
+
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        
+        <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+
+        <title>Yoyo</title>
+
+        <meta name="description" content="Yoyo" />
+        
+    
+        <link rel="icon" type="image/png" href="/common/img/favicon.ico" />
+
+
+        
+        <!-- css -->
+
+        <!-- reset -->
+        <link href="./common/style/reset.css" rel="stylesheet" type="text/css" />
+
+        <!-- styles -->
+        <link href="./common/style/loader.css" rel="stylesheet" type="text/css" />
+        <link href="./common/style/main.css" rel="stylesheet" type="text/css" />
+        <link href="./common/style/yoyo.css" rel="stylesheet" type="text/css" />
+        <link href="./common/style/popins.css" rel="stylesheet" type="text/css" />
+       
+       
+    </head>
+    
+    <body>
+    
+
+        <!-- preload -->
+        <img src="./common/img/all/popin/popin.png" style="display: none;">
+
+        <!-- Loader -->
+        <div id="loader">
+
+            <div id="loader-bg">
+                <div id="counter-elements">
+
+                    <div id="spinner">
+
+                    <p id="counter"></p>
+                        <div id="rainbow"></div>
+                    </div>
+
+                    <div id="clouds"></div>
+
+                </div>
+
+                <p><strong>Yoyo, avions, fleurs, papillon…</strong> laissez-vous prendre au jeu pour découvrir mon book !</p>
+
+
+            </div>
+        </div>
+
+
+        <!-- Fps -->
+        <div id="fps" style="display: none"></div>
+
+
+
+        <!-- Container -->
+    	<section id="container">
+
+            <!-- Yoyo Engine Fixed -->
+            <canvas id="layer-engine" width="224" height="1200"></canvas>
+
+
+
+            <!-- Play Again -->
+            <div id="play-again"></div>
+
+
+                
+            <!-- Intro -->
+            <section class="section" id="intro">
+
+               
+                <!-- Yoyo -->
+                <div id="yoyo">
+                    <!-- Canvas Yoyo -->
+                    <canvas id="layer-dropzone" width="248" height="1200"></canvas>
+                    <canvas id="layer-dropzone-arrow" width="59" height="70"></canvas>
+                    <canvas id="layer-rollzone" width="248" height="1200"></canvas>
+                    <canvas id="layer-rollzone-arrow" width="78" height="80"></canvas>
+                    <canvas id="layer-starter" width="224" height="1200"></canvas>
+                 </div>
+
+                <!-- quote cloud -->
+                <blockquote id="quote" lang="fr">
+                    
+                    <p>“Créer, c’est toujours parler de l’enfance”</p>
+                    <footer>- Jean Genet -</footer>
+
+                </blockquote>
+
+            </section>
+
+
+
+
+
+
+            <!-- layer popin -->
+            <div id="layer-popin" style="display: none"></div>
+            <div class="popin" style="display: none">
+                <p><strong>Veuillez nous excuser</strong><br /> 
+                <strong>pour les problèmes techniques occasionnés.</strong><br /> 
+                Le site ne fonctionne pas encore avec toutes les configurations.<br /> 
+                Il semble que la carte graphique de votre ordinateur<br />  
+                ne soit pas compatible avec la technologie utilisée pour ce site.<br /> 
+                N’hésitez donc pas à le consulter à nouveau depuis un autre ordinateur.</p>
+
+                <a href="#" id="popin-btn-close"><strong>essayez</strong><br /> 
+                tout de même</a>
+
+            </div>
+
+    	</section>
+
+
+
+
+        <!-- Libs -->
+        <script type="text/javascript" src="./common/js/libs/jquery.min.js"></script>
+        <script type="text/javascript" src="./common/js/libs/jquery.event.frame.js"></script>
+        <script type="text/javascript" src="./common/js/libs/canvas_events.js"></script>
+        <script type="text/javascript" src="./common/js/libs/main.js"></script>
+       
+
+        <!-- Script Loader -->
+        <script type="text/javascript" src="./common/js/loader/loader.js"></script>
+       
+        <!-- Script Intro -->
+        <script type="text/javascript" src="./common/js/intro.js"></script>
+        
+
+        <!-- Scripts Yoyo -->
+        <script type="text/javascript" src="./common/js/yoyo/start.js"></script>
+        <script type="text/javascript" src="./common/js/yoyo/engine.js"></script>
+        <script type="text/javascript" src="./common/js/yoyo/rollzone.js"></script>
+        <script type="text/javascript" src="./common/js/yoyo/dropzone.js"></script>
+       
+
+        <!-- Scripts Global -->
+        <script type="text/javascript" src="./common/js/controller.js"></script>
+        <script type="text/javascript" src="./common/js/interaction.js"></script>
+        <script type="text/javascript" src="./common/js/popin.js"></script>
+        <script type="text/javascript" src="./common/js/fps.js"></script>
+        
+
+        <!-- Script Navigation -->
+        <script type="text/javascript" src="./common/js/navigation.js"></script>
+
+        
+    </body>
+</html> 

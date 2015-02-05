@@ -1,0 +1,93 @@
+body{
+  width: auto;
+  font-family: 'helvetica', Arial, sans-serif; 
+  overflow: hidden;
+  background: url('../../common/img/bg/mobile/bg.jpg') no-repeat top center;
+  background-color: #fff;
+}
+
+
+
+/* Container */
+#container{ 
+  width: auto;
+  margin: 0 auto;
+  padding-top: 350px;
+}
+
+p{
+  max-width: 550px;
+  margin:0 auto;
+  text-align: center;
+  color: rgb(50, 180, 214);
+  font-size: 17px;
+  font-weight: lighter;
+  line-height: 22px;
+}
+
+
+
+
+@media (max-width: 568px) {
+
+  body{
+    background-size: 130%
+  }
+
+  /* Container */
+
+  #container{ 
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 50%;
+    padding-bottom: 10%
+  }
+
+  p{
+    font-size: 1em;
+    line-height: 1.2em;
+  }
+
+  #plane{
+    width: 40px;
+    height: 42px;
+  background-size: 100%;
+  }
+
+}
+
+
+@media (max-device-width:568px) and (orientation: landscape) {
+  body{
+    background-size: 70%
+  }
+
+  /* Container */
+
+  #container{ 
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 25%;
+    padding-bottom: 10%;
+  }
+
+  p{
+    font-size: 0.5em;
+  line-height: 1.2em;
+  }
+
+
+  #plane{
+    width: 40px;
+    height: 42px;
+  background-size: 100%;
+  }
+
+
+}
+
+
+
+
+
+

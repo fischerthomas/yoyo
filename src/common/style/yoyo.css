@@ -1,0 +1,70 @@
+/* Intro */
+
+#layer-intro{
+	position: absolute;
+	width: 480px;
+	left: 50%;
+	margin-left: -240px;
+	z-index: 1;	
+}
+
+
+/* Starter */
+
+#layer-starter{
+	position: absolute;
+	width: 224px;
+	left: 50%;
+	margin-left: -112px;
+	z-index: 3;	
+
+}
+
+
+/* DropZone et Roll Zone*/
+
+#layer-dropzone{	
+	position: absolute;
+	width: 248px;
+	left: 50%;
+	margin-left: -124px;
+	z-index: 0;
+}
+
+#layer-dropzone-arrow{	
+	position: absolute;
+	width: 59px;
+	left: 44%;
+	top: 435px;
+	margin-left: -29px;
+	z-index: 0;
+}
+
+#layer-rollzone{
+	position: absolute;
+	width: 248px;
+	left: 50%;
+	margin-left: -124px;
+	z-index: 0;	
+}
+
+#layer-rollzone-arrow{	
+	position: absolute;
+	width: 78px;
+	left: 56%;
+	top: 435px;
+	margin-left: -39px;
+	z-index: 0;
+}
+
+
+/* Engine */
+
+#layer-engine{
+	position: fixed;
+	width: 224px;
+	left: 50%;
+	margin-left: -112px;
+	z-index: 1;
+}
+

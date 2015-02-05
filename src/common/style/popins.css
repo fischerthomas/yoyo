@@ -1,0 +1,73 @@
+#layer-popin{
+    background-color: rgba(98, 198, 230, 0.5);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+
+}
+
+.popin{
+    width: 678px;
+    height: 271px;
+    padding-top: 333px;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 50%;
+    margin-left: -339px;
+    background-image : url('../img/all/popin/popin.png');
+    background-repeat: no-repeat;
+    background-position: top center;
+    text-align: center;
+    color: rgb(50, 180, 214);
+    font-size: 15px;
+    line-height: 19px;
+    font-family: 'helvetica', Arial, sans-serif; 
+
+}
+
+.popin p {
+    font-weight: lighter;
+}
+
+.popin p strong{
+    font-weight: bold;
+}
+
+.popin a{
+    display: inline-block;
+    width: 120px;
+    height: 40px;
+    margin: 17px auto 0 auto;
+    padding: 7px 14px 0 14px;
+    color: #fff;
+    font-size: 14px;
+    line-height: 14px;
+    background-color: rgba(81, 203, 240,0.5);
+    text-decoration: none;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    border-radius: 40px;
+}
+
+.popin a + a{
+    margin-left: 17px;
+}
+
+.popin a strong{
+    font-size: 19px;
+    line-height: 19px;
+    text-transform: uppercase;
+}
+
+
+.popin a.popin-btn-close{
+}
+.popin a.popin-btn-change{
+}
+
+
+
